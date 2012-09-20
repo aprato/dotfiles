@@ -1,0 +1,11 @@
+[user]
+	name = Anthony Prato
+	email = anthonyprato@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	rb = rebase
