@@ -4,8 +4,12 @@
 [credential]
 	helper = osxkeychain
 [color]
+    diff = auto
+    status = auto
+    branch = auto
 	ui = true
 [alias]
 	co = checkout
 	ci = commit
 	rb = rebase
+	l  = log --pretty=oneline -n 10

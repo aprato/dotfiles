@@ -1,3 +1,22 @@
+About
+-----
+This is a bit more than dotfiles. It's really my first stab at getting my macs in some sort of consistent state. 
+
+New Computer Setup
+------------------
+1. Install the Github for Mac Client and set it up:
+http://mac.github.com/
+2. Install homebrew:
+http://mxcl.github.com/homebrew/
+3. "brew install hub" https://github.com/defunkt/hub
+4. clone this repo to ~/dotfiles
+5. "chmod +x ~/dotfiles/bash/make-links.sh"
+6. "~/dotfiles/bash/make-links.sh"
+7. "chmod +x ~/dotfiles/git/set-config.sh"
+8. "~/dotfiles/git/set-config.sh"
+9. "chmod +x ~/dotfiles/osx/set-defaults.sh"
+10. "~/dotfiles/osx/set-defaults.sh"
+11. restart
 
 Work in progress
 ----------------
@@ -6,8 +25,8 @@ Starting from this guide:
 http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
 
 
-Some other dotfiles as inspiration
-----------------------------------
+### Some other dotfiles as inspiration
+
 * https://github.com/michaeljsmalley/dotfiles
 * https://github.com/pithyless/homeconfig
 * https://github.com/mathiasbynens/dotfiles
@@ -16,8 +35,8 @@ Some other dotfiles as inspiration
 * https://github.com/matthewmccullough/dotfiles
 * https://github.com/matthewmccullough/scripts
 
-Some helpful git info
----------------------
+### Some helpful git info
+
 * http://git-scm.com/book/en/Customizing-Git-Git-Configuration
 * http://teach.github.com
 * https://github.com/training/free
