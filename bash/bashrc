@@ -4,10 +4,13 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 4)\][\u@\h \w]\\$ \[$(tput sgr0)\]"
 
 source ~/dotfiles/git/git-completion.bash
 source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
+source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
 
 alias gco='git co'
 alias gci='git ci'
 alias grb='git rb'
+alias gs='git s'
+alias gl='git l'
 
 alias ll="ls -Glahp"
 
@@ -20,3 +23,4 @@ function tabname {
 function winname {
   printf "\e]2;$1\a"
 }
+
