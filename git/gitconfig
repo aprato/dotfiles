@@ -12,6 +12,10 @@
 	co = checkout
 	ci = commit
 	rb = rebase
-	l  = log --pretty=oneline -n 20
+        lp = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
+        l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative -n 20
+        lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative
         s  = status
 
+[core]
+	pager = less -F 
