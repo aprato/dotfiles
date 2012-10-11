@@ -13,9 +13,10 @@
 	ci = commit
 	rb = rebase
         lp = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
-        l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative -n 20
+        l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative --abbrev-commit
         lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative
         s  = status
+	wtf = !~/dotfiles/git/git-wtf
 
-[core]
-	pager = less -F 
+[apply]
+        whitespace = nowarn

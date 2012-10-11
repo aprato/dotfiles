@@ -1,6 +1,10 @@
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-export PS1="\[$(tput bold)\]\[$(tput setaf 4)\][\u@\h \w]\\$ \[$(tput sgr0)\]"
+white=$(tput setaf 7)
+blue=$(tput setaf 4)
+bold=$(tput bold)
+reset=$(tput sgr0)
+PS1='\[$white$bold\]\h\[$reset\]:\[$blue$bold\]\w\[$reset\]\$ '
 
 source ~/dotfiles/git/git-completion.bash
 source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
@@ -10,7 +14,7 @@ alias gco='git co'
 alias gci='git ci'
 alias grb='git rb'
 alias gs='git s'
-alias gl='git l'
+alias gl='git --no-pager l -n 10 ; echo'
 
 alias ll="ls -Glahp"
 
