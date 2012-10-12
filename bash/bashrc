@@ -17,6 +17,7 @@ alias gs='git s'
 alias gl='git --no-pager l -n 10 ; echo'
 
 alias ll="ls -Glahp"
+alias lsl="ls -Glahp"
 
 eval "$(hub alias -s)"
 
@@ -27,4 +28,8 @@ function tabname {
 function winname {
   printf "\e]2;$1\a"
 }
+
+if [ -f ~/.bashrc_local ]; then
+   source ~/.bashrc_local
+fi
 
