@@ -4,19 +4,30 @@ This is a bit more than dotfiles. It's really my first stab at getting my macs i
 
 New Computer Setup
 ------------------
-1. Install the Github for Mac Client and set it up:
+1. Install Xcode and it's command line tools
+2. Install the Github for Mac Client and set it up:
 http://mac.github.com/
-2. Install homebrew:
+3. Install homebrew:
 http://mxcl.github.com/homebrew/
-3. "brew install hub" https://github.com/defunkt/hub
-4. clone this repo to ~/dotfiles
-5. "chmod +x ~/dotfiles/bash/make-links.sh"
+4. "brew install hub" https://github.com/defunkt/hub
+5. clone this repo to ~/dotfiles
 6. "~/dotfiles/bash/make-links.sh"
-7. "chmod +x ~/dotfiles/git/set-config.sh"
-8. "~/dotfiles/git/set-config.sh"
-9. "chmod +x ~/dotfiles/osx/set-defaults.sh"
-10. "~/dotfiles/osx/set-defaults.sh"
-11. restart
+7. "~/dotfiles/git/set-config.sh"
+8. "~/dotfiles/osx/set-defaults.sh"
+9. restart
+
+More to Brew
+------------
+```
+brew install appledoc
+```
+
+Downloads
+---------
+
+### P4Merge
+http://www.perforce.com/perforce/downloads/component.html
+
 
 Work in progress
 ----------------
@@ -42,10 +53,3 @@ http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-do
 * https://github.com/training/free
 * https://help.github.com/articles/what-are-other-good-resources-for-using-git-or-github
 * https://help.github.com/articles/dealing-with-line-endings
-
-Downloads
----------
-
-### P4Merge
-http://www.perforce.com/perforce/downloads/component.html
-
