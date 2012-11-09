@@ -4,22 +4,41 @@ This is a bit more than dotfiles. It's really my first stab at getting my macs i
 
 New Computer Setup
 ------------------
-1. Install Xcode and it's command line tools
-2. Install the Github for Mac Client and set it up:
+1. Install the latest Xcode and it's command line tools from the [MAS](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+2. Install the Github for Mac Client and set it up:  
 http://mac.github.com/
-3. Install homebrew:
-http://mxcl.github.com/homebrew/
-4. "brew install hub" https://github.com/defunkt/hub
-5. clone this repo to ~/dotfiles
-6. "~/dotfiles/bash/make-links.sh"
-7. "~/dotfiles/git/set-config.sh"
-8. "~/dotfiles/osx/set-defaults.sh"
-9. restart
+3. Update RubyGems  
+`sudo gem update --system`
+4. Install [homebrew](http://mxcl.github.com/homebrew/)  
+`ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"`
+5. install [hub](https://github.com/defunkt/hub)  
+`brew install hub`
+6. install [appledoc](https://github.com/tomaz/appledoc)  
+`brew install appledoc`
+7. install [cocoapods](http://cocoapods.org)  
+`sudo gem install cocoapods`  
+`pod setup`
+8. clone this repo to ~/dotfiles
+9. `~/dotfiles/bash/make-links.sh`
+10. `~/dotfiles/git/set-config.sh`
+11. `~/dotfiles/osx/set-defaults.sh`
+12. restart
+
+Updates
+-------
+* update this repo in ~/dotfiles  
+If any for the bash or git config files change run `. ~/.bashrc`
+* `brew doctor` and follow the instructions
+* `sudo gem update --system`
+* `brew upgrade appledoc`
+* `sudo gem update cocoapods`
+* `gem outdated`
+* `brew outdated`
 
 More to Brew
 ------------
 ```
-brew install appledoc
+
 ```
 
 Downloads
