@@ -1,3 +1,5 @@
+[hub]
+	protocol = https
 [user]
 	name = Anthony Prato
 	email = anthonyprato@gmail.com
@@ -19,6 +21,7 @@
         s  = status
 	wtf = !~/dotfiles/git/git-wtf
 	sb = show-branch --all --more=10
-
+[core]
+	excludesfile = ~/dotfiles/git/global-gitignore
 [apply]
         whitespace = nowarn
