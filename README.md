@@ -38,8 +38,65 @@ If any for the bash or git config files change run `. ~/.bashrc`
 More to Brew
 ------------
 ```
-
+brew install mogenerator
 ```
+
+Xcode Behaviors
+---------------
+### Built-in
+* Generates new issues, Fails, Testing Starts  
+Show tab named 'Debug'  
+Show issue navigator
+* Fails  
+Navigate to first new issue
+* Testing Starts  
+Show debugger with Current Views  
+Show Standard Editor  
+Navigate to current log
+* Testing (all outcomes)  
+Navigate to current log
+* Testing Succeeds or Fails  
+Run ~/dotfiles/Xcode/focus_xcode.sh
+* Running Pauses, Running Generates output  
+Show tab named 'Debug'  
+Show debugger with Current Views
+* Running Pauses  
+Show navigator Debug Navigator
+* The rest keep stock settings
+
+### Custom
+_(All use Command + a number)_
+
+1. **Edit**  
+Show tab named 'Edit'  
+Show Project Navigator  
+Hide debugger  
+Show editor as Current Editor
+2. **Design**  
+Show tab named 'Design'  
+Hide debugger  
+Show utilities  
+Show toolbar
+3. **Search**  
+Show tab named 'Search'  
+Show Search Navigator  
+Hide debugger  
+Hide utilities
+Show editor as Assistant Editor
+4. **Diff**  
+Show tab named 'Diff'  
+Show Project Navigator  
+Hide debugger  
+Hide utilities  
+Show editor as Versions Editor
+5. **Debug**  
+Show tab named 'Debug'  
+Show Debug Navigator  
+Show debugger with current views  
+Show editor as Assistant Editor
+
+
+
 
 Downloads
 ---------
