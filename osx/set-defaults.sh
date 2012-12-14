@@ -32,6 +32,9 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 # Always open everything in Finder's list view. This is important.
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
+# Allow text selection in quick look
+defaults write com.apple.finder QLEnableTextSelection -bool true
+
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
