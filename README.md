@@ -103,7 +103,8 @@ Downloads
 
 ### P4Merge
 http://www.perforce.com/perforce/downloads/component.html
-
+### Developer Color Picker
+http://www.panic.com/~wade/picker/
 
 Work in progress
 ----------------
