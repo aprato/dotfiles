@@ -20,3 +20,8 @@ for aDir in $dirs; do
     echo "Creating symlink to $aDir in $targetdir"
     ln -s $dir/$aDir $targetdir/$aDir
 done
+
+echo "Moving any existing lldbinit from ~ to $olddir"
+mv ~/.lldbinit ~/dotfiles_old/
+echo "Creating symlink to lldbinit in home directory."
+ln -s $dir/lldbinit ~/.lldbinit

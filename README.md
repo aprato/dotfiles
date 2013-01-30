@@ -28,12 +28,20 @@ Updates
 -------
 * update this repo in ~/dotfiles  
 If any for the bash or git config files change run `. ~/.bashrc`
-* `brew doctor` and follow the instructions
+
+###Keeping Command Line Tools Up-To-Date
+Run the following commands to update your command line tools:
 * `sudo gem update --system`
-* `brew upgrade appledoc`
 * `sudo gem update cocoapods`
+* `brew update`
+* `brew doctor` and follow the instructions
+* `brew upgrade appledoc`
+
+You can also check your other gems/formuleas with:
 * `gem outdated`
 * `brew outdated`
+
+
 
 More to Brew
 ------------
@@ -95,8 +103,12 @@ Show Debug Navigator
 Show debugger with current views  
 Show editor as Assistant Editor
 
-
-
+Xcode Plugins
+-------------
+### Image Named
+https://github.com/ksuther/KSImageNamed-Xcode  
+### Xcode Colors
+https://github.com/robbiehanson/XcodeColors  
 
 Downloads
 ---------
