@@ -117,6 +117,8 @@ Downloads
 http://www.perforce.com/perforce/downloads/component.html
 ### Developer Color Picker
 http://www.panic.com/~wade/picker/
+### NSRegexTester
+https://github.com/aaronvegh/nsregextester
 
 Work in progress
 ----------------
