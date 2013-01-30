@@ -3,20 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppp</string>
+	<string>shared singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark -
-#pragma mark &lt;#mark#&gt;</string>
+	<string>+ (&lt;#class#&gt; *)shared&lt;#name#&gt; {
+    static &lt;#class#&gt; *_shared&lt;#name#&gt; = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        _shared&lt;#name#&gt; = &lt;#initializer#&gt;;
+    });
+    
+    return _shared&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>com.anthonyprato.ppp</string>
+	<string>com.anthonyprato.shared-singleton</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pragma Mark</string>
+	<string>Shared Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
