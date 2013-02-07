@@ -4,25 +4,26 @@ This is a bit more than dotfiles. It's really my first stab at getting my macs i
 
 New Computer Setup
 ------------------
-1. Install the latest Xcode and it's command line tools from the [MAS](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+1. Install the latest Xcode and it's command line tools from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fxcode%252Fid497799835%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Xcode - Apple" style="border: 0;"/></a>
 2. Install the Github for Mac Client and set it up:  
 http://mac.github.com/
-3. Update RubyGems  
+3. Install Kaleidoscope from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fkaleidoscope%252Fid587512244%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Kaleidoscope - Black Pixel" style="border: 0;"/></a> and then install [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
+4. Update RubyGems  
 `sudo gem update --system`
-4. Install [homebrew](http://mxcl.github.com/homebrew/)  
+5. Install [homebrew](http://mxcl.github.com/homebrew/)  
 `ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"`
-5. install [hub](https://github.com/defunkt/hub)  
+6. install [hub](https://github.com/defunkt/hub)  
 `brew install hub`
-6. install [appledoc](https://github.com/tomaz/appledoc)  
+7. install [appledoc](https://github.com/tomaz/appledoc)  
 `brew install appledoc`
-7. install [cocoapods](http://cocoapods.org)  
+8. install [cocoapods](http://cocoapods.org)  
 `sudo gem install cocoapods`  
 `pod setup`
-8. clone this repo to ~/dotfiles
-9. `~/dotfiles/bash/make-links.sh`
-10. `~/dotfiles/git/set-config.sh`
-11. `~/dotfiles/osx/set-defaults.sh`
-12. restart
+9. clone this repo to ~/dotfiles
+10. `~/dotfiles/bash/make-links.sh`
+11. `~/dotfiles/git/set-config.sh`
+12. `~/dotfiles/osx/set-defaults.sh`
+13. restart
 
 Updates
 -------
@@ -144,3 +145,4 @@ http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-do
 * https://github.com/training/free
 * https://help.github.com/articles/what-are-other-good-resources-for-using-git-or-github
 * https://help.github.com/articles/dealing-with-line-endings
+* http://blackpixel.com/blog/2012/11/code-review-kaleidoscope.html
