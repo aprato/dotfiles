@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppp</string>
+	<string>NSBlockOperation weakOp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#mark#&gt;</string>
+	<string>__block NSBlockOperation *operation = [[NSBlockOperation alloc] init];
+__weak typeof(operation)weakOp = operation;
+
+[operation addExecutionBlock:^{
+    if (!weakOp.isCancelled) {
+        &lt;#code#&gt;
+    }
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>com.anthonyprato.ppp</string>
+	<string>com.anthonyprato.NSBlockOperation-weakOp</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pragma Mark</string>
+	<string>NSBlockOperation weakOp</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
