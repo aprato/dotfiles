@@ -22,8 +22,9 @@ http://mac.github.com/
 9. clone this repo to ~/dotfiles
 10. `~/dotfiles/bash/make-links.sh`
 11. `~/dotfiles/git/set-config.sh`
-12. `~/dotfiles/osx/set-defaults.sh`
-13. restart
+12. `~/dotfiles/xcode/make-UserData-links.sh`
+13. `~/dotfiles/osx/set-defaults.sh`
+14. restart
 
 Updates
 -------
@@ -90,7 +91,7 @@ Show toolbar
 Show tab named 'Search'  
 Show Search Navigator  
 Hide debugger  
-Hide utilities
+Hide utilities  
 Show editor as Assistant Editor
 4. **Diff**  
 Show tab named 'Diff'  
@@ -120,6 +121,8 @@ http://www.perforce.com/perforce/downloads/component.html
 http://www.panic.com/~wade/picker/
 ### NSRegexTester
 https://github.com/aaronvegh/nsregextester
+### ImageOptim
+http://imageoptim.com
 
 Work in progress
 ----------------
