@@ -123,6 +123,10 @@ http://www.panic.com/~wade/picker/
 https://github.com/aaronvegh/nsregextester
 ### ImageOptim
 http://imageoptim.com
+### SCStringsUtility
+https://github.com/stefanceriu/SCStringsUtility
+### Unused
+https://github.com/jeffhodnett/Unused
 
 Work in progress
 ----------------
