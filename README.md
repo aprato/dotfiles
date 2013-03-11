@@ -111,6 +111,8 @@ Xcode Plugins
 https://github.com/ksuther/KSImageNamed-Xcode  
 ### Xcode Colors
 https://github.com/robbiehanson/XcodeColors  
+### Lin (Localized String Plugin)
+https://github.com/questbeat/Lin  
 
 Downloads
 ---------
@@ -126,7 +128,9 @@ http://imageoptim.com
 ### SCStringsUtility
 https://github.com/stefanceriu/SCStringsUtility
 ### Unused
-https://github.com/jeffhodnett/Unused
+https://github.com/jeffhodnett/Unused  
+### NSRegexTester
+https://github.com/aaronvegh/nsregextester
 
 Work in progress
 ----------------
