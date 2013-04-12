@@ -49,3 +49,5 @@
 	trustExitCode = true
 [mergetool]
 	prompt = false
+[rebase]
+	autosquash = true
