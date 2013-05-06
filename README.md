@@ -113,6 +113,8 @@ https://github.com/ksuther/KSImageNamed-Xcode
 https://github.com/robbiehanson/XcodeColors  
 ### Lin (Localized String Plugin)
 https://github.com/questbeat/Lin  
+### Alcatraz (Package Manager)
+https://github.com/mneorr/Alcatraz
 
 Downloads
 ---------
