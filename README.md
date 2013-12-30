@@ -10,8 +10,8 @@ http://mac.github.com/
 3. Install Kaleidoscope from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fkaleidoscope%252Fid587512244%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Kaleidoscope - Black Pixel" style="border: 0;"/></a> and then install [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
 4. Update RubyGems  
 `sudo gem update --system`
-5. Install [homebrew](http://mxcl.github.com/homebrew/)  
-`ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"`
+5. Install [homebrew](http://brew.sh)  
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 6. install [hub](https://github.com/defunkt/hub)  
 `brew install hub`
 7. install [appledoc](https://github.com/tomaz/appledoc)  
@@ -115,6 +115,8 @@ https://github.com/robbiehanson/XcodeColors
 https://github.com/questbeat/Lin  
 ### Alcatraz (Package Manager)
 https://github.com/mneorr/Alcatraz
+### XToDo
+https://github.com/trawor/XToDo
 
 Downloads
 ---------

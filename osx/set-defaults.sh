@@ -9,6 +9,9 @@
 #
 # Run ./set-defaults.sh and you'll be good to go.
 
+# no ipad not charging notifications
+defaults write com.apple.usbd NoiPadNotifications -bool true
+
 # Use AirDrop over every interface. srsly this should be a default.
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
