@@ -22,6 +22,7 @@
         l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative --abbrev-commit
         lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative
         s  = status
+	cleanup = clean -f -d
 	wtf = !~/dotfiles/git/git-wtf
 	sb = show-branch --all --more=10
 	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
@@ -52,3 +53,6 @@
 	keepBackup = false
 [rebase]
 	autosquash = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

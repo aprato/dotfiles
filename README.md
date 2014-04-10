@@ -24,7 +24,9 @@ http://mac.github.com/
 11. `~/dotfiles/git/set-config.sh`
 12. `~/dotfiles/xcode/make-UserData-links.sh`
 13. `~/dotfiles/osx/set-defaults.sh`
-14. restart
+14. Install [chisel](https://github.com/facebook/chisel)  
+`brew install chisel`
+15. restart
 
 Updates
 -------
@@ -135,6 +137,8 @@ https://github.com/stefanceriu/SCStringsUtility
 https://github.com/jeffhodnett/Unused  
 ### NSRegexTester
 https://github.com/aaronvegh/nsregextester
+### Fui
+https://github.com/dblock/fui
 
 Work in progress
 ----------------
