@@ -139,6 +139,8 @@ https://github.com/jeffhodnett/Unused
 https://github.com/aaronvegh/nsregextester
 ### Fui
 https://github.com/dblock/fui
+### SimDirs  
+https://github.com/somegeekintn/SimDirs
 
 Work in progress
 ----------------
