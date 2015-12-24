@@ -11,13 +11,13 @@ http://mac.github.com/
 4. Update RubyGems  
 `sudo gem update --system`
 5. Install [homebrew](http://brew.sh)  
-`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 6. install [hub](https://github.com/defunkt/hub)  
 `brew install hub`
 7. install [appledoc](https://github.com/tomaz/appledoc)  
 `brew install appledoc`
 8. install [cocoapods](http://cocoapods.org)  
-`sudo gem install cocoapods`  
+`sudo gem install cocoapods -n /usr/local/bin/`  
 `pod setup`
 9. clone this repo to ~/dotfiles
 10. `~/dotfiles/bash/make-links.sh`
@@ -141,6 +141,8 @@ https://github.com/aaronvegh/nsregextester
 https://github.com/dblock/fui
 ### SimDirs  
 https://github.com/somegeekintn/SimDirs
+### Skala Color  
+https://bjango.com/mac/skalacolor/  
 
 Work in progress
 ----------------
