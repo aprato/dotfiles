@@ -36,7 +36,7 @@ If any for the bash or git config files change run `. ~/.bashrc`
 ###Keeping Command Line Tools Up-To-Date
 Run the following commands to update your command line tools:
 * `sudo gem update --system`
-* `sudo gem update cocoapods`
+* `sudo gem update -n /usr/local/bin cocoapods`
 * `brew update`
 * `brew doctor` and follow the instructions
 * `brew upgrade appledoc`
