@@ -7,8 +7,8 @@ reset=$(tput sgr0)
 PS1='\[$white$bold\]\h\[$reset\]:\[$blue$bold\]\w\[$reset\]\$ '
 
 source ~/dotfiles/git/git-completion.bash
-source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
-source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
+source `brew --prefix`/etc/bash_completion.d/hub.bash_completion.sh
+source `brew --prefix`/Homebrew/completions/bash/brew
 
 alias gco='git co'
 alias gci='git ci'
