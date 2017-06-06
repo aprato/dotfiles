@@ -25,6 +25,7 @@
 	cleanup = clean -f -d
 	wtf = !~/dotfiles/git/git-wtf
 	sb = show-branch --all --more=10
+	bl = for-each-ref --sort=committerdate refs/heads/ --format='%(refname:short): %(committerdate:short) - %(authorname) - %(contents:lines=1)'
 	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 [core]
 	excludesfile = ~/dotfiles/git/global-gitignore
@@ -58,8 +59,9 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
 [push]
 	default = simple
