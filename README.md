@@ -11,11 +11,11 @@ http://mac.github.com/
 4. Update RubyGems  
 `sudo gem update --system`
 5. Install [homebrew](http://brew.sh)  
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 6. install [hub](https://github.com/defunkt/hub)  
 `brew install hub`
-7. install [appledoc](https://github.com/tomaz/appledoc)  
-`brew install appledoc`
+7. install git large file support
+`brew install git-lfs`
 8. install [cocoapods](http://cocoapods.org)  
 `sudo gem install cocoapods -n /usr/local/bin/`  
 `pod setup`
@@ -24,9 +24,7 @@ http://mac.github.com/
 11. `~/dotfiles/git/set-config.sh`
 12. `~/dotfiles/xcode/make-UserData-links.sh`
 13. `~/dotfiles/osx/set-defaults.sh`
-14. Install [chisel](https://github.com/facebook/chisel)  
-`brew install chisel`
-15. restart
+14. restart
 
 Updates
 -------
@@ -49,9 +47,8 @@ You can also check your other gems/formuleas with:
 
 More to Brew
 ------------
-```
-brew install mogenerator
-```
+[chisel](https://github.com/facebook/chisel) LLDB helpers  
+`brew install chisel`
 
 Xcode Behaviors
 ---------------
@@ -107,42 +104,6 @@ Show Debug Navigator
 Show debugger with current views  
 Show editor as Assistant Editor
 
-Xcode Plugins
--------------
-### Image Named
-https://github.com/ksuther/KSImageNamed-Xcode  
-### Xcode Colors
-https://github.com/robbiehanson/XcodeColors  
-### Lin (Localized String Plugin)
-https://github.com/questbeat/Lin  
-### Alcatraz (Package Manager)
-https://github.com/mneorr/Alcatraz
-### XToDo
-https://github.com/trawor/XToDo
-
-Downloads
----------
-
-### P4Merge
-http://www.perforce.com/perforce/downloads/component.html
-### Developer Color Picker
-http://www.panic.com/~wade/picker/
-### NSRegexTester
-https://github.com/aaronvegh/nsregextester
-### ImageOptim
-http://imageoptim.com
-### SCStringsUtility
-https://github.com/stefanceriu/SCStringsUtility
-### Unused
-https://github.com/jeffhodnett/Unused  
-### NSRegexTester
-https://github.com/aaronvegh/nsregextester
-### Fui
-https://github.com/dblock/fui
-### SimDirs  
-https://github.com/somegeekintn/SimDirs
-### Skala Color  
-https://bjango.com/mac/skalacolor/  
 
 Work in progress
 ----------------
