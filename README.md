@@ -24,7 +24,8 @@ http://mac.github.com/
 11. `~/dotfiles/git/set-config.sh`
 12. `~/dotfiles/xcode/make-UserData-links.sh`
 13. `~/dotfiles/osx/set-defaults.sh`
-14. restart
+14. If using two factor auth with github setup your [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+15. restart
 
 Updates
 -------
