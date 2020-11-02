@@ -20,6 +20,8 @@
 	<string>com.anthonyprato.dispatch_async-and-back</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>GCD: dispatch_async default queue and back to main</string>
 	<key>IDECodeSnippetUserSnippet</key>
