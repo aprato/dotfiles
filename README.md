@@ -11,7 +11,7 @@ http://mac.github.com/
 4. Update RubyGems  
 `sudo gem update --system`
 5. Install [homebrew](http://brew.sh)  
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 6. install [hub](https://github.com/defunkt/hub)  
 `brew install hub`
 7. install git large file support
