@@ -1,0 +1,11 @@
+ZSH_DISABLE_COMPFIX="true"
+
+export ZSH=~/.oh-my-zsh
+
+ZSH_THEME="agnoster"
+
+ZSH_CUSTOM=~/dotfiles/oh-my-zsh-custom
+
+plugins=(git ap-common)
+
+source $ZSH/oh-my-zsh.sh

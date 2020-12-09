@@ -7,20 +7,18 @@ New Computer Setup
 1. Install the latest Xcode and it's command line tools from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fxcode%252Fid497799835%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Xcode - Apple" style="border: 0;"/></a>
 2. Install the Github for Mac Client and set it up:  
 http://mac.github.com/
-3. Install Kaleidoscope from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fkaleidoscope%252Fid587512244%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Kaleidoscope - Black Pixel" style="border: 0;"/></a> and then install [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
-4. Update RubyGems  
-`sudo gem update --system`
-5. Install [homebrew](http://brew.sh)  
+3. Install [iTerm2](https://iterm2.com)
+4. Get Info on iTerm2 and set it to open with Rosetta. Too many command line programs don't support Apple Silicon
+5. Install Kaleidoscope from the <a href="http://click.linksynergy.com/fs-bin/stat?id=zI5fUanaREs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fkaleidoscope%252Fid587512244%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-sm.gif" alt="Kaleidoscope - Black Pixel" style="border: 0;"/></a> and then install [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
+6. Install [homebrew](http://brew.sh)  
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-6. install [hub](https://github.com/defunkt/hub)  
-`brew install hub`
 7. install git large file support
 `brew install git-lfs`
-8. install [cocoapods](http://cocoapods.org)  
-`sudo gem install cocoapods -n /usr/local/bin/`  
-`pod setup`
+8. install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)  
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`  
+
 9. clone this repo to ~/dotfiles
-10. `~/dotfiles/bash/make-links.sh`
+10. `~/dotfiles/zsh/make-links.sh`
 11. `~/dotfiles/git/set-config.sh`
 12. `~/dotfiles/xcode/make-UserData-links.sh`
 13. `~/dotfiles/osx/set-defaults.sh`
@@ -31,7 +29,7 @@ http://mac.github.com/
 Updates
 -------
 * update this repo in ~/dotfiles  
-If any for the bash or git config files change run `. ~/.bashrc`
+If any for the bash or git config files change run `. ~/.zshrc`
 
 ###Keeping Command Line Tools Up-To-Date
 Run the following commands to update your command line tools:
@@ -45,37 +43,21 @@ You can also check your other gems/formuleas with:
 * `gem outdated`
 * `brew outdated`
 
+Don't want to wait for oh-my-zsh auto updates? run:  
+* `omz update`
 
-
-More to Brew
-------------
-[chisel](https://github.com/facebook/chisel) LLDB helpers  
-`brew install chisel`
-
-Xcode Behaviors
+Xcode Preferences
 ---------------
-### Built-in
-* Generates new issues, Fails, Testing Starts  
-Show tab named 'Debug'  
-Show issue navigator
-* Fails  
-Navigate to first new issue
-* Testing Starts  
-Show debugger with Current Views  
-Show Standard Editor  
-Navigate to current log
-* Testing (all outcomes)  
-Navigate to current log
-* Testing Succeeds or Fails  
-Run ~/dotfiles/Xcode/focus_xcode.sh
-* Running Pauses, Running Generates output  
-Show tab named 'Debug'  
-Show debugger with Current Views
-* Running Pauses  
-Show navigator Debug Navigator
-* The rest keep stock settings
 
-### Custom
+* Add accounts
+* Set tabs or spaces as you do
+* Enable code folding ribbon
+* Select one of the themes installed above
+* For all behaviors that default to doing something have theme open a "Debug" window tab so it doesn't mess with what you are working on.
+* Behaviors > Testing > Succeeds or Fails  
+Run ~/dotfiles/Xcode/focus_xcode.sh
+
+### Custom Behaviors
 _(All use Command + a number)_
 
 1. **Edit**  
@@ -106,29 +88,3 @@ Show Debug Navigator
 Show debugger with current views  
 Show editor as Assistant Editor
 
-
-Work in progress
-----------------
-
-Starting from this guide:
-http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
-
-
-### Some other dotfiles as inspiration
-
-* https://github.com/michaeljsmalley/dotfiles
-* https://github.com/pithyless/homeconfig
-* https://github.com/mathiasbynens/dotfiles
-* https://github.com/rtomayko/dotfiles
-* https://github.com/holman/dotfiles
-* https://github.com/matthewmccullough/dotfiles
-* https://github.com/matthewmccullough/scripts
-
-### Some helpful git info
-
-* http://git-scm.com/book/en/Customizing-Git-Git-Configuration
-* http://teach.github.com
-* https://github.com/training/free
-* https://help.github.com/articles/what-are-other-good-resources-for-using-git-or-github
-* https://help.github.com/articles/dealing-with-line-endings
-* http://blackpixel.com/blog/2012/11/code-review-kaleidoscope.html

@@ -6,9 +6,9 @@
 [credential]
 	helper = osxkeychain
 [color]
-    	diff = auto
-    	status = auto
-    	branch = auto
+    diff = auto
+    status = auto
+    branch = auto
 	ui = true
 [alias]
 	co = checkout
@@ -18,10 +18,10 @@
 	pub = push -u origin
 	rb = rebase
 	rbi = rebase -i
-        lp = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
-        l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative --abbrev-commit
-        lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative
-        s  = status
+    lp = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
+    l = log --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative --abbrev-commit
+    lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cgreen%d%Creset %C(white)(%cr)%Creset %s %C(cyan)[%an]%Creset' --date=relative
+    s  = status
 	cleanup = clean -f -d
 	wtf = !~/dotfiles/git/git-wtf
 	sb = show-branch --all --more=10
@@ -30,7 +30,7 @@
 [core]
 	excludesfile = ~/dotfiles/git/global-gitignore
 [apply]
-        whitespace = nowarn
+    whitespace = nowarn
 [merge]
 	keepBackup = false
 	tool = Kaleidoscope
@@ -59,9 +59,9 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 [push]
 	default = simple
