@@ -1,4 +1,5 @@
 ZSH_DISABLE_COMPFIX="true"
+DISABLE_AUTO_TITLE="true"
 
 export ZSH=~/.oh-my-zsh
 

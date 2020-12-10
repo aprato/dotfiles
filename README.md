@@ -46,8 +46,14 @@ You can also check your other gems/formuleas with:
 Don't want to wait for oh-my-zsh auto updates? run:  
 * `omz update`
 
-Xcode Preferences
 ---------------
+#App Preferences
+---------------
+##iTerm2
+* Profiles > Import `~/dotfiles/iTerm2/My Defaults.json`
+* Appearance > Theme => `Dark`
+
+##Xcode
 
 * Add accounts
 * Set tabs or spaces as you do
