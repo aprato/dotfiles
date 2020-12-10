@@ -1,6 +1,3 @@
-About
------
-This is a bit more than dotfiles. It's really my first stab at getting my macs in some sort of consistent state. 
 
 New Computer Setup
 ------------------
@@ -22,12 +19,25 @@ http://mac.github.com/
 11. `~/dotfiles/git/set-config.sh`
 12. `~/dotfiles/xcode/make-UserData-links.sh`
 13. `~/dotfiles/osx/set-defaults.sh`
-14. Make sure your git command line is [setup to cache in the keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
-14. If using two factor auth with github [setup your personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
-15. restart
+14. install [SwiftLint](https://github.com/realm/SwiftLint)  
+`brew install swiftlint`
 
-Updates
--------
+### Other Apps to Install
+* [1Password](https://1password.com)
+* [VS Code](https://code.visualstudio.com)
+* [Boop](https://apps.apple.com/us/app/boop/id1518425043?mt=12)
+* [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12)
+* [Chrome](https://www.google.com/chrome/)
+* [Stream Deck](https://www.elgato.com/en/gaming/downloads)
+
+### Other Helpful Links
+* If using two factor auth with github [setup your personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+* Make sure your git command line is [setup to cache in the keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
+
+---------------
+#Updates
+---------------
+
 * update this repo in ~/dotfiles  
 If any for the bash or git config files change run `. ~/.zshrc`
 
@@ -37,9 +47,8 @@ Run the following commands to update your command line tools:
 * `sudo gem update -n /usr/local/bin cocoapods`
 * `brew update`
 * `brew doctor` and follow the instructions
-* `brew upgrade appledoc`
 
-You can also check your other gems/formuleas with:
+You can also check your other gems/formulas with:
 * `gem outdated`
 * `brew outdated`
 
@@ -52,6 +61,11 @@ Don't want to wait for oh-my-zsh auto updates? run:
 ##iTerm2
 * Profiles > Import `~/dotfiles/iTerm2/My Defaults.json`
 * Appearance > Theme => `Dark`
+
+##Safari
+* General > Open with last windows
+* Advanced > Show full address
+* Advanced > Show developer menu
 
 ##Xcode
 
