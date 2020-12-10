@@ -3,10 +3,19 @@ DISABLE_AUTO_TITLE="true"
 
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="agnoster"
+# simple single line
+# ZSH_THEME="muse"
+# multi line
+ZSH_THEME="fino"
 
 ZSH_CUSTOM=~/dotfiles/oh-my-zsh-custom
 
 plugins=(git ap-common)
 
 source $ZSH/oh-my-zsh.sh
+
+unset LSCOLORS
+export CLICOLOR=1
+export CLICOLOR_FORCE=1
+# solarized
+# export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
