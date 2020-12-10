@@ -10,7 +10,10 @@ ZSH_THEME="fino"
 
 ZSH_CUSTOM=~/dotfiles/oh-my-zsh-custom
 
-plugins=(git ap-common)
+MAGIC_ENTER_GIT_COMMAND='git status -u .'
+MAGIC_ENTER_OTHER_COMMAND='ls -GFlahp .'
+
+plugins=(git ap-common magic-enter jsontools)
 
 source $ZSH/oh-my-zsh.sh
 
