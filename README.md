@@ -56,6 +56,22 @@ Don't want to wait for oh-my-zsh auto updates? run:
 * `omz update`
 
 ---------------
+#System Preferences
+---------------
+##### Keyboard > Text
+* Uncheck "Correct spelling automatically"
+* Uncheck "Capitalize words automatically"
+
+##### Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options
+* Enable dragging with drag lock
+
+##### Sound
+* Check Show volume in the menu bar
+
+##### Bluetooth
+* Check Show Bluetooth in the menu bar
+
+---------------
 #App Preferences
 ---------------
 ##iTerm2
