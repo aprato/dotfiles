@@ -79,6 +79,7 @@ Don't want to wait for oh-my-zsh auto updates? run:
 * Appearance > Theme => `Dark`
 
 ##Safari
+* General > Uncheck "Open safe files after downloading"
 * General > Open with last windows
 * Advanced > Show full address
 * Advanced > Show developer menu
