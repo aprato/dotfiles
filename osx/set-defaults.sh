@@ -100,4 +100,8 @@ defaults write com.apple.TextEdit RichText -int 0
 # defaults write com.apple.DiskUtility advanced-image-options -bool true
 
 ########################
+# Xcode
+#######################
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
