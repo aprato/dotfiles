@@ -30,6 +30,11 @@ http://mac.github.com/
 * [Chrome](https://www.google.com/chrome/)
 * [Stream Deck](https://www.elgato.com/en/gaming/downloads)
 
+#### Stream Deck Xcode helpers:
+* [Xcode Stream Deck Plugin](https://github.com/iKenndac/xcode-streamdeck-plugin) installed through the stream deck app
+* Blame: Control + Shift + Command + A
+* Document function: Option + Command + /
+
 ### Other Helpful Links
 * If using two factor auth with github [setup your personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 * Make sure your git command line is [setup to cache in the keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
